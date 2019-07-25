@@ -1,0 +1,45 @@
+.Hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Text Style */
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    /* hero background styling */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('https://res.cloudinary.com/dxjjosi5g/image/upload/v1564085384/AdobeStock_227336177_qamf3g.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/* Style h1 header*/
+.Hero h1{
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+/* About Me Button Styling */
+.Hero .Btn{
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 1.5em;
+    color:rgba(255, 255, 255, 1);
+    
+    /* round corner */
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+
+}

@@ -1,0 +1,70 @@
+header .Container .Head-nav {
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
+header {
+    width: 100%;
+    text-align: center;
+    height: 68px;
+    background-color: #333;
+    display:block;
+}
+header .Container .Head-nav .Logo-wrap {
+    margin-left: 10px;
+}
+header .Container .Head-nav .Logo-wrap {
+    height: 68px;
+    display: inline-block;
+}
+.Container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+header .Container {
+    position: relative;
+    height: 68px;
+    background-color: #333;
+}
+header .Container .Head-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
+header .Container .Head-nav .Logo-wrap{
+    height: 68px;
+    display: inline-block;
+}
+header .Container .Head-nav .Logo-wrap .Table-wrap{
+    height: 68px;
+    vertical-align: middle;
+    display: table-cell;
+}
+header .Container .Head-nav {
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
+header img.Logo{
+    width: 180px;
+    height: 48px;
+    margin-top:10px;
+    float:left;
+}
+nav.Menu {
+    margin-left: 0;
+    margin-right: 10px;
+    float: right;
+}
+nav{
+    margin: 0;
+    margin-left: 200px;
+    display: inline-block;
+    list-style: none;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}

@@ -1,0 +1,19 @@
+.Plant-Photo{
+    width:200px;
+    height: 200px;
+    background-size: 100% 100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.Plant-Spec-Info{
+    width:fit-content;
+    height:fit-content;
+    padding: 20px 10px 20px 10px;
+    margin-left:10px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius:8px;
+}

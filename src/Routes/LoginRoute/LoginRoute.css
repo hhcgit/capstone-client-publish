@@ -1,0 +1,10 @@
+.login-parent{
+    height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('https://res.cloudinary.com/dxjjosi5g/image/upload/v1564085380/AdobeStock_205899553_emnshv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color:white;
+}

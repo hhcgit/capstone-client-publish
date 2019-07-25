@@ -1,0 +1,72 @@
+.register-section {
+  margin: auto;
+  max-width: 500px;
+  color: var(--black);
+}
+
+.register-Title{
+  margin: 0;
+    font-size: 36px;
+    text-align: center;
+    padding: 15px;
+}
+
+.register-form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: var(--black);
+}
+
+.register-button {
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 22px 0;
+  border-radius: 5px;
+  color: var(--linen);
+  background-color: var(--red);
+  border-color: var(--seconday-color);
+}
+
+#register-username-input,
+#register-password-input,
+#register-name-input {
+  font-size: 22px;
+  padding: 15px 20px;
+  margin: 22px 0;
+  border-radius: 3px;
+}
+
+.avatar-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.avatar-item {
+  width: 65px;
+  border: 3px solid var(--primary-color);
+  border-radius: 50%;
+  background-color: var(--vermilion);
+  margin: 3px;
+}
+
+.avatar-item:hover,
+.avatar-item:focus {
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  cursor: pointer;
+}
+.Scrollable-register{
+  height: 83vh;
+}
+
+@media screen and (max-width: 500px) {
+
+  .register-button {
+    border: 1px solid var(--seconday-color);
+  }
+  
+}
