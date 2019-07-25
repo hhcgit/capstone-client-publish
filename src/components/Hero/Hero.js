@@ -10,7 +10,7 @@ export default class Hero extends React.Component{
             <section className="Hero">
                 <div className="Hero-inner">
                 <h1>Cactus Head</h1>
-                <h2>The site for Amateur Cactus Lovers.</h2>
+                <h2>The site for Amateur Plant Lovers.</h2>
                 </div>
             </section>
         )

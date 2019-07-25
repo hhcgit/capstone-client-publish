@@ -1,38 +1,33 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import AuthApiService from '../../services/auth-api-service'
 import { Input } from '../../components/FormUtils/FormUtils'
 import ScrollArea from 'react-scrollbar'
+import UserContext from '../../contexts/UserContext'
 import './RegisterForm.css'
 
 export default function RegisterForm(props) {
   const [userName, setUserName] = useState('')
+  const userContext = useContext(UserContext)
   const [name, setName] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState(null)
-  const [avatar, setAvatar] = useState('')
   const { onRegisterSuccess = () => {} } = props
 
   const handleNewUserSubmit = e => {
     e.preventDefault()
     setError(null)
-    
-    if (avatar.length === 0) {
-      setError('Please choose an avatar!')
-      return
-    }
 
     AuthApiService.postUser({
       username: userName,
       name,
-      password,
-      avatar
+      password
     })
     .then(() => {
-      setUserName('')
-      setName('')
-      setPassword('')
-      setAvatar('')
-      onRegisterSuccess()
+      userContext.setUser({
+        username:userName,
+        name
+      })
+      onRegisterSuccess(userName, password)
     })
     .catch(res => {
       setError(res.error)

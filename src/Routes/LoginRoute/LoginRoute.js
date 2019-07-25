@@ -7,7 +7,6 @@ import './LoginRoute.css'
 
 export default function LoginRoute(props) {
   const handleLoginSuccess = () => {
-    console.log(TokenService.getAuthToken())
     const {location = {}, history={push: () => {}}} = props;
     const destination = (location.state || {}).from || '/'
     history.push(destination)

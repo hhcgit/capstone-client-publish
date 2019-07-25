@@ -1,7 +1,6 @@
 nav.Menu {
     margin-left: 0;
     margin-right: 10px;
-    float: right;
     margin-top:30px;
 }
 nav{
@@ -15,6 +14,31 @@ nav{
 }
 .Nav-Btn{
     text-decoration: none;
-    color:white;
     margin-right:40px;
+}
+.Display-User{
+    margin-right:20px;
+    font-weight:18;
+}
+@media only screen and (min-width:715px){
+    nav.Menu{
+        float: right;
+    }
+    .Nav-Btn{
+        color:white;
+    }
+    .Display-User{
+        color:white;
+    }
+}
+@media only screen and (max-width:714px){
+    .Nav-Btn{
+        color:black;
+    }
+    .Display-User{
+        color:black;
+    }
+    nav.Menu{
+        float: left;
+    }
 }

@@ -9,10 +9,11 @@
     margin-top:50px;
 }
 .GetPlants-Input{
-    width:50%;
+    width:40%;
     min-width:450px;
     height:30px;
     font-size:18px;
+    padding-left:10px;
 }
 .Submit-Btn{
     width:100px;
@@ -30,5 +31,10 @@
 @media only screen and (min-width: 500px){
     .Submit-Btn{
         margin-left:20px;
+    }
+}
+@media only screen and (min-width:800px){
+    .GetPlants-Input{
+        margin-left:50px;
     }
 }

@@ -3,7 +3,6 @@ import TokenService from '../services/token-service'
 
 const PlantApiService = {
     getPlants(name){
-        console.log(name,config.API_ENDPOINT)
         return fetch(`${config.API_ENDPOINT}/plants/${name}`,{
             method:'GET',
             headers: {

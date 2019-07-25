@@ -19,7 +19,7 @@ export default function RegisterRoute(props) {
         userContext.processLogin(res.authToken)
 
         const { location = {}, history = { push: () => {} } } = props
-        const destination = (location.state || {}).from || '/dashboard'
+        const destination = (location.state || {}).from || '/'
         history.push(destination)
       })
       .catch(res => alert(res.error))

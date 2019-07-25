@@ -14,7 +14,6 @@ export default function Top () {
                         <img src={pic} alt="logo" className="Logo" />
                     </div>
                 </div>
-
                 {TokenService.hasAuthToken()?<BtnSet2 />:<BtnSet1 />}
             </div>
          </header>

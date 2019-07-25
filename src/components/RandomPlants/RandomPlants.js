@@ -37,6 +37,7 @@ export default function RandomPlants(){
         <>
         <div className="GetPlants-Container">
             <form onSubmit={handleSubmit} id="Plant-Input-Form">
+                <h2>Enter The Plant Name to Search</h2>
                 <input 
                     type="text"
                     className="GetPlants-Input" 
