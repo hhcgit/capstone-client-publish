@@ -32,7 +32,7 @@ export default function LoginForm(props) {
   const handleDemo = e => {
     e.preventDefault()
     AuthApiService.postLogin({
-      username: "user1",
+      username: "user2",
       password: "P@ssw0rd"
     })
     .then(res => {
