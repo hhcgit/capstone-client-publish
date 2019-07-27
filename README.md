@@ -1,3 +1,6 @@
+Live Page:https://capstone-client.harrisonhuaruichen.now.sh
+api repo"https://github.com/hhcgit/capstone-server-publish
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
