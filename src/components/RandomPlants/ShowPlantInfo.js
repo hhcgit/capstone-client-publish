@@ -22,7 +22,13 @@ export default function ShowPlantInfo (props){
             catch{
                 divStyle=`url(https://res.cloudinary.com/dxjjosi5g/image/upload/v1564085395/no-image-found_vcnvkf.jpg)`
             }
-            
+            let symbol = info.scientific_name.split(' ')
+            if (symbol.length===2){
+                symbol = symbol[0].slice(0,2)+symbol[1].slice(0,2)
+            }
+            if (symbol.length===1){
+                symbol = symbol[0].slice(0,6)
+            }
             
             return (
                 <div className="Plant-Spec-Info">
@@ -33,7 +39,9 @@ export default function ShowPlantInfo (props){
                     <span>Genus: {info.genus.name || 'N/A'}</span>
                     <div style={ { backgroundImage:divStyle }} className="Plant-Photo">
                     </div>
-                    <a href={info.main_species.sources[0].source_url}>Want more information on this plant?</a>
+                    <a href={`${info.main_species.sources[0].source_url}/core/profile?symbol=${symbol}`} target="_blank">
+                        Want more information on this plant?
+                    </a>
                 </div>
             )
         }
