@@ -22,6 +22,23 @@ After Logging in to the page, please go to the search plant page by clicking the
 
 by entering a plant name inside the search bar. you will return with all the plants with either scientific or common name that contains the niput keyword.
 
+<ul>
+  Technologies
+  <ul> 
+    Client
+    <li>Reactjs hooks</li>
+    <li>Reactjs-Popup</li>
+    <li>Styled with css</li>
+  </ul>
+  <ul>
+    Server
+    <li>Nodejs</li>
+    <li>Express</li>
+    <li>Morgan</li>
+    <li>Cors</li>
+  </ul>
+</ul>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
