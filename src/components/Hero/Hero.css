@@ -43,3 +43,20 @@
     border-radius: 20px;
 
 }
+.modal{
+    color:black;
+    padding:5px 20px 20px 20px;
+    font-weight:bolder;
+    line-height: 24px;
+}
+.close{
+    float:right;
+}
+.button{
+    padding:10px 10px 10px 10px;
+    border-radius:5px;
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    background-color: #333;
+}
