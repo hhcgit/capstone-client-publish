@@ -1,4 +1,4 @@
-<h1>Title: Cactus Head<h1>
+<h1>Title: Cactus Head</h1>
 
 Live Page:https://capstone-client.harrisonhuaruichen.now.sh
 
