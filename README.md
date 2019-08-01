@@ -11,7 +11,7 @@ api repo"https://github.com/hhcgit/capstone-server-publish
 <p>Description: A website use for searching plant via scientific and common name, and redirect to it's source page where one can get more information about the plant.</p>
 
 
-<h3>Demo Credential:<h3>
+<h3>Demo Credential:</h3>
 <p>A button was added to to the login page where the user can press and login as a demo user, but feel free to create your own account by pressing the register button.</p>
 
 
