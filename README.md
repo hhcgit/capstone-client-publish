@@ -1,20 +1,20 @@
-Title: Cactus Head
+<h1>Title: Cactus Head<h1>
 
 Live Page:https://capstone-client.harrisonhuaruichen.now.sh
 
 api repo"https://github.com/hhcgit/capstone-server-publish
 
 ![home page](https://i.ibb.co/rp55h3Q/Screen-Shot-2019-07-29-at-9-40-14-AM.png)
-```
-Project Name: Cactus Head
 
-Description: A website use for searching plant via scientific and common name, and redirect to it's source page where one can get more information about the plant.
+<h2>Project Name: Cactus Head</h2>
+
+<p>Description: A website use for searching plant via scientific and common name, and redirect to it's source page where one can get more information about the plant.</p>
 
 
-Demo Credential:
-A button was added to to the login page where the user can press and login as a demo user, but feel free to create your own account by pressing the register button.
+<h3>Demo Credential:<h3>
+<p>A button was added to to the login page where the user can press and login as a demo user, but feel free to create your own account by pressing the register button.</p>
 
-```
+
 ![demo login](https://i.ibb.co/Gxj2GV9/Screen-Shot-2019-07-29-at-9-36-39-AM.png)
 
 
@@ -23,15 +23,10 @@ After Logging in to the page, please go to the search plant page by clicking the
 by entering a plant name inside the search bar. you will return with all the plants with either scientific or common name that contains the niput keyword.
 
 <ul>
-  Technologies
   <ul> 
-    Client
     <li>Reactjs hooks</li>
     <li>Reactjs-Popup</li>
     <li>Styled with css</li>
-  </ul>
-  <ul>
-    Server
     <li>Nodejs</li>
     <li>Express</li>
     <li>Morgan</li>
