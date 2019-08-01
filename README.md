@@ -8,7 +8,8 @@ api repo"https://github.com/hhcgit/capstone-server-publish
 
 <h2>Project Name: Cactus Head</h2>
 
-<p>Description: A website use for searching plant via scientific and common name, and redirect to it's source page where one can get more information about the plant.</p>
+<h3>Description:</h3> 
+<p>A website use for searching plant via scientific and common name, and redirect to it's source page where one can get more information about the plant.</p>
 
 
 <h3>Demo Credential:</h3>
